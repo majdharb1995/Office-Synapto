@@ -1,7 +1,12 @@
+# تجاهل مجلدات الاعتمادات لكل من العميل والسيرفر
 node_modules/
 client/node_modules/
 server/node_modules/
+
+# تجاهل ملفات قاعدة البيانات وملفاتها المؤقتة
 server/database.sqlite
 server/database.sqlite-shm
 server/database.sqlite-wal
+
+# تجاهل ملفات البيئة الحساسة إذا وجدت
 .env
